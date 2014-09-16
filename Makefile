@@ -69,3 +69,8 @@ zookeeper: $(ZOOKEEPER)
 
 clean-zookeeper:
 	rm -rf zookeeper $(ZOOKEEPER_PATH)
+
+package:
+	$(PYTHON) setup.py bdist_egg
+	$(PYTHON) setup.py sdist 
+
