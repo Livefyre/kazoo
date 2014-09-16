@@ -34,7 +34,7 @@ if on_rtd:
     ])
 
 setup(
-    name='kazoo',
+    name='kazoo-lf',
     version=__version__,
     description='Higher Level Zookeeper Client',
     long_description=README + '\n\n' + CHANGES,
